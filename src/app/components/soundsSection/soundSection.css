@@ -1,0 +1,8 @@
+.sound_container {
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: aliceblue;
+}
