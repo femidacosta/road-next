@@ -18,10 +18,10 @@ export default async function SoundPage({
 
   return (
     <article className="_container_container">
-      <Link href="/" className="no-underline">
+      <Link href="/" className="link">
         &#10550; Back to Road
       </Link>
-      <div className="container_text">
+      <div className="text_container">
         <time dateTime={post.date}>
           {format(parseISO(post.date), "LL d, yyyy")}
         </time>
