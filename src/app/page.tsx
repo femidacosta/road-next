@@ -15,7 +15,7 @@ export default async function Home() {
 
       {posts.map((post, idx) => {
         return (
-          <div className="wrapper">
+          <div className="wrapper" key={post.slug}>
             <div className="a">
               <Link href={`/${post.slug}`}>
                 {post.title}
