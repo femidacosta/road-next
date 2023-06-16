@@ -6,8 +6,8 @@ export default function Header() {
   return (
     <div className="header_container">
       <div className="header">
+        <h1 className="h1">ROAD</h1>
         <Nav />
-        <h1>ROAD</h1>
       </div>
     </div>
   );

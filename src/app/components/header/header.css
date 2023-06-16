@@ -4,8 +4,10 @@
   height: fit-content;
 }
 
-.logo {
-  height: 1rem;
-  width: 1rem;
-  z-index: inherit;
+.h1 {
+  font-size: 3rem;
+}
+
+.h1:hover {
+  color: #c2f133;
 }
